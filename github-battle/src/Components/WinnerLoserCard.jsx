@@ -17,6 +17,7 @@ function WinnerLoserCard(props) {
       <figure className="card-logo flex">
         <img src={props.user.avatar_url} alt={props.user.login + "_image"} />
       </figure>
+      <h2 className="score">Score: {props.i === 0 ? props.scores.user1: props.scores.user2}</h2>
       <h2 className="card-name">
         <a href={props.user.html_url}>{props.user.login}</a>{" "}
       </h2>

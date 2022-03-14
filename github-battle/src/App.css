@@ -155,8 +155,7 @@ a{
   background-color: #eaeaeb;
   border-radius: 4px;
   text-align: center;
-  padding: 0.7rem;
-  height: 420px;
+  padding: 1rem;
   margin: 1rem 0;
 }
 
@@ -332,4 +331,8 @@ a{
 
 .w-l-card{
   margin: 0 3rem;
+}
+
+.score{
+  font-weight: 700;
 }
