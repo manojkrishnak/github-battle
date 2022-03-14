@@ -27,15 +27,15 @@ function WinnerLoserCard(props) {
           <a href={props.user.html_url}>{props.user.login}</a>
         </li>
         <li>
-          <i className="fas icon fa-star"></i>
-          {props.user.followers} stars
+          <i className="fas icon fa-users"></i>
+          {props.user.followers} followers
         </li>
         <li>
-          <i className="fas icon fa-code-branch"></i>
-          {props.user.following} forks
+          <i className="fas icon fa-user-friends"></i>
+          {props.user.following} 
         </li>
         <li>
-          <i className="fas icon fa-exclamation-triangle"></i>
+          <i className="fas icon fa-code"></i>
           {props.user.public_repos}
         </li>
       </ul>

@@ -217,7 +217,7 @@ a{
   color: #ffd601;
 }
 
-.fa-code-branch{
+.fa-code-branch, .fa-users{
   color: #80c3f4;
 }
 
@@ -225,6 +225,9 @@ a{
   color: #f18b92;
 }
 
+.fa-user-friends{
+  color: green;
+}
 
 
 /* Battle Page */
@@ -292,6 +295,7 @@ a{
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
+  cursor: pointer;
 }
 
 .user-found{
