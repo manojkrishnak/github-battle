@@ -4,7 +4,6 @@ import "./index.css";
 import App from "./App";
 import Battle from "./Components/Battle";
 import BattleCompare from "./Components/BattleCompare";
-import NotFound from "./Components/NotFound";
 import { BrowserRouter, Route } from "react-router-dom";
 
 ReactDOM.render(

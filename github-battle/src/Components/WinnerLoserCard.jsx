@@ -1,12 +1,12 @@
 import "../App.css";
 
-function winnerLoser(props){
-        if(props.scores.user1 > props.scores.user2 ){
-            return "Winner";
-        }else{
-            return "Loser";
-        }
-}
+// function winnerLoser(props){
+//         if(props.scores.user1 > props.scores.user2 ){
+//             return "Winner";
+//         }else{
+//             return "Loser";
+//         }
+// }
 
 function WinnerLoserCard(props) {
   return (
